@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <style>
+      button {
+        font-size: 20px;
+        background-color: yellow;
+      }
+
+      .buynowbutton {
+        background-color: orange;
+      } 
+      </style> -->
+    </head>
+<body>
+<p> Adults Plain Cotton T-Shirt
+  <br>
+  Price: $7.99
+</p>
+<!-- <button class="button" onclick="showResult()">Add to Cart</button>
+<button class="buynowbutton"> Buy Now</button> -->
+<button onclick="addquantitiy()"> +2 </button>
+<button onclick="increasebyone()"> +1 </button>
+<button onclick = "removecart()"> -1 </button>
+<script>
+  let quantity = 0;
+  function addquantitiy() {
+  quantity += 2;
+  console.log(`Quantity: ${quantity}`);
+}
+
+function increasebyone() {
+  quantity += 1;
+  console.log(`Quantity: ${quantity}`);
+}
+
+function removecart() {
+  quantity -= 1;
+  console.log(`Quantity: ${quantity}`);
+}
+ 
+</script>
+</body>
+</html>
+
+

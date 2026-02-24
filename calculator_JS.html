@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        </head>
+<body>
+<h1>Simple Calculator</h1>
+<p>
+<button onclick ="add1()"> 1 </button>
+<button onclick ="add2()"> 2 </button>
+<button onclick ="add3()"> 3 </button>
+<button onclick ="addPlus()"> + </button>
+</p>
+
+<p>
+<button onclick ="add4()"> 4</button>
+<button onclick ="add5()"> 5 </button>
+<button onclick ="add6()"> 6 </button>
+<button onclick ="addMinus()"> - </button>
+</p>
+
+<p>
+    <button onclick ="add7()"> 7 </button>
+    <button onclick ="add8()"> 8 </button>
+    <button onclick ="add9()"> 9 </button>
+    <button onclick ="addMultiply()"> * </button>
+</p>
+
+<p>
+    <button onclick ="add0()"> 0 </button>
+    <button onclick ="addDot()"> . </button>
+    <button onclick ="equalsto()"> = </button>
+    <button onclick ="clear()"> Clear </button>
+</p>
+<script> 
+    let calculation = "";
+
+    function add1() {
+        calculation += 1;
+        console.log(calculation);
+    }
+
+    function add2() {
+        calculation += 2;
+        console.log(calculation);
+    }
+
+    function add3() {
+        calculation += 3;
+        console.log(calculation);
+    }
+
+    function addPlus() {
+        calculation += " + ";
+        console.log(calculation);
+    }
+
+    function equalsto() {
+        calculation = eval(calculation);
+        console.log(calculation);
+    }
+
+    function clear() {
+        calculation = "";
+        console.log(calculation);
+    }
+
+    function add4() {
+        calculation += 4;
+        console.log(calculation);
+    }
+
+    function add5() {
+        calculation += 5;
+        console.log(calculation);
+    }
+
+    function add6() {
+            calculation += 6;
+            console.log(calculation);
+        }
+
+function add7() {
+    calculation += 7;
+    console.log(calculation);
+}
+
+function add8() {
+    calculation += 8;
+    console.log(calculation);
+}
+
+function add9() {
+    calculation += 9;
+    console.log(calculation);
+}
+
+function add0() {
+    calculation += 0;
+    console.log(calculation);
+}
+
+function addDot() {
+    calculation += ".";
+    console.log(calculation);
+}
+
+function addMinus() {
+    calculation += " - ";
+    console.log(calculation);
+}
+
+function addMultiply() {
+    calculation += " * ";
+    console.log(calculation);
+}
+
+</script>
+
+</body>
+
+</html>
